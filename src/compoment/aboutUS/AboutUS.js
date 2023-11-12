@@ -8,6 +8,8 @@ import { motion } from "framer-motion";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
+
 function AboutUs() {
     useEffect(() => {
         AOS.init({ duration: 1700 });

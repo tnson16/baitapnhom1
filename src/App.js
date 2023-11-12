@@ -12,10 +12,11 @@ import Categori from './compoment/Categories/Categori';
 import Brands from "./compoment/Brands/Brands";
 import Slideshow from './compoment/Slideshow/Slideshow';
 import Produc from "./compoment/Products/Produc";
-
-import ContactUs from './compoment/contact/contact';
 import AboutUs from './compoment/AboutUS/AboutUS';
+import ContactUs from './compoment/contact/contact';
+
 import Product from "./compoment/Products/ProductCompare"
+import React from 'react';
 
 function App() {
   return (
