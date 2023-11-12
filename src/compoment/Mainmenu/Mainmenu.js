@@ -50,9 +50,9 @@ function mainmenu() {
             </NavDropdown>
 
             <Nav.Link as={Link} to={"/contact-us"} className='aaa'>
-              <span className="aaa">Contact US</span>
+              <span className="aaa">Contact Us</span>
             </Nav.Link> <Nav.Link as={Link} to={"/about-us"} className='aaa'>
-              <span className="aaa">About US</span>
+              <span className="aaa">About Us</span>
             </Nav.Link>
             <Nav.Link as={Link} to={"/productcompare"} className='Compare'>
               <span className="aaa">Compare</span>

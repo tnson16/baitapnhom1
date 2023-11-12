@@ -10,9 +10,9 @@ import Categori from './compoment/Categories/Categori';
 import Brands from "./compoment/Brands/Brands";
 import Slideshow from './compoment/Slideshow/Slideshow';
 import Produc from "./compoment/Products/Produc";
-import AboutUs from './compoment/AboutUS/AboutUS';
+import AboutUs from './compoment/AboutUs/AboutUs';
 import ContactUs from './compoment/contact/contact';
-import Product from "./compoment/Products/ProductCompare"
+import Product from "./compoment/Products/ProductCompare";
 
 
 function App() {
@@ -29,6 +29,7 @@ function App() {
       <Route path='/categories/:id' element={<Categori />}></Route>
       <Route path='/brands/:id' element={<Brands />}></Route>
       <Route path='/contact-us/' element={<ContactUs />}></Route>
+
       <Route path='/about-us/' element={<AboutUs />}></Route>
       <Route path='/productcompare/' element={<Product />}></Route>
       
