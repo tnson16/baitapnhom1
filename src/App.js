@@ -29,7 +29,6 @@ function App() {
       <Route path='/categories/:id' element={<Categori />}></Route>
       <Route path='/brands/:id' element={<Brands />}></Route>
       <Route path='/contact-us/' element={<ContactUs />}></Route>
-
       <Route path='/about-us/' element={<AboutUs />}></Route>
       <Route path='/productcompare/' element={<Product />}></Route>
       
